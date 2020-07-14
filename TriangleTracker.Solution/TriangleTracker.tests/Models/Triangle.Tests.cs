@@ -29,6 +29,3 @@ namespace TriangleTracker.Tests
     }
   }
 }
-
-// LeapYear testLeapYear = new LeapYear();
-// Assert.AreEqual(true, testLeapYear.IsLeapYear(2012));

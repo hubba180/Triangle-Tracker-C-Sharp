@@ -35,7 +35,7 @@ Kyle Hubbard <kyle.james.hubbard@gmail.com>_
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac_
+_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac, C#_
 
 ### License
 

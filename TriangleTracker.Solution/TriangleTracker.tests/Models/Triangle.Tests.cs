@@ -8,6 +8,21 @@ namespace TriangleTracker.Tests
   public class TriangleTests
   {
     [TestMethod]
-    // testing method here
+    public void IsTriangle_AllSidesAreEqual_True()
+    {
+      Triangle testTriangle = new Triangle();
+      Assert.AreEqual(true, testTriangle.IsTriangle());
+    }
+    public void IsTriangle_ExactlyTwoSidesAreEqual_True()
+    {
+
+    }
+    public void IsTriangle_NoSidesAreEqual_True()
+    {
+
+    }
   }
 }
+
+// LeapYear testLeapYear = new LeapYear();
+// Assert.AreEqual(true, testLeapYear.IsLeapYear(2012));

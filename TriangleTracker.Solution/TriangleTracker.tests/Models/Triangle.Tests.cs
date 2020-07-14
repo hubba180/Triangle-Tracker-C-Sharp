@@ -13,15 +13,15 @@ namespace TriangleTracker.Tests
       Triangle testTriangle = new Triangle();
       Assert.AreEqual(true, testTriangle.IsTriangle());
     }
-    public void IsTriangle_ExactlyTwoSidesAreEqual_True()
-    {
-      Triangle testTriangle = new Triangle();
-      $
-    }
-    public void IsTriangle_NoSidesAreEqual_True()
-    {
-      Triangle testTriangle = new Triangle();
-    }
+    // public void IsTriangle_ExactlyTwoSidesAreEqual_True()
+    // {
+    //   Triangle testTriangle = new Triangle();
+    //   $
+    // }
+    // public void IsTriangle_NoSidesAreEqual_True()
+    // {
+    //   Triangle testTriangle = new Triangle();
+    // }
   }
 }
 

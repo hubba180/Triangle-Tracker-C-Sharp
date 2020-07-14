@@ -10,8 +10,8 @@ namespace TriangleTracker.Tests
     [TestMethod]
     public void IsTriangle_AllSidesAreEqual_True()
     {
-      Triangle testTriangle = new Triangle();
-      Assert.AreEqual(true, testTriangle.IsTriangle());
+      Triangle testTriangle = new Triangle(3, 3, 3);
+      Assert.AreEqual(true, testTriangle.isEquilateral());
     }
     // public void IsTriangle_ExactlyTwoSidesAreEqual_True()
     // {
